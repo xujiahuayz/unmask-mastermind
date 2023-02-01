@@ -1,11 +1,128 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T18:55:52.611Z" agent="5.0 (X11; Ubuntu)" etag="rL14dRAGH6clUiRRjdpr" version="20.8.15" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-01T21:22:46.437Z" agent="5.0 (X11; Ubuntu)" etag="LI1_VtowYV0PR5xxRqst" version="20.8.15" type="github">
   <diagram name="pipeline" id="e1wFYsPqcQ0wLVG2scBn">
-    <mxGraphModel dx="1360" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3695" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="grGa16mLLxmnXQvjI8Sc-1" value="" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="330" width="60" height="80" as="geometry" />
+        <mxCell id="grGa16mLLxmnXQvjI8Sc-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="grGa16mLLxmnXQvjI8Sc-4" target="grGa16mLLxmnXQvjI8Sc-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="grGa16mLLxmnXQvjI8Sc-4" value="Text Message From Telegram" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="1400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="grGa16mLLxmnXQvjI8Sc-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.593;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=50;" edge="1" parent="1" source="grGa16mLLxmnXQvjI8Sc-5" target="grGa16mLLxmnXQvjI8Sc-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="grGa16mLLxmnXQvjI8Sc-5" value="Signals processed by Cloudburst" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="1520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="grGa16mLLxmnXQvjI8Sc-7" value="&lt;div&gt;Regex Parsing &lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="1480" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="grGa16mLLxmnXQvjI8Sc-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="grGa16mLLxmnXQvjI8Sc-9" target="grGa16mLLxmnXQvjI8Sc-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="grGa16mLLxmnXQvjI8Sc-9" value="Time pump and crowd pump event" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="1650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="grGa16mLLxmnXQvjI8Sc-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="grGa16mLLxmnXQvjI8Sc-24" target="grGa16mLLxmnXQvjI8Sc-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="grGa16mLLxmnXQvjI8Sc-24" value="&lt;font style=&quot;font-size: 50px;&quot;&gt;Signal Detection&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-583" y="1780" width="340" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="grGa16mLLxmnXQvjI8Sc-25" value="Impact Evaluation" style="rounded=1;whiteSpace=wrap;html=1;fontSize=50;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1465" width="380" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="grGa16mLLxmnXQvjI8Sc-26" value="Topology" style="rounded=1;whiteSpace=wrap;html=1;fontSize=50;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1360" width="390" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="grGa16mLLxmnXQvjI8Sc-29" value="&lt;div&gt;Signal Selection&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="1590" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="grGa16mLLxmnXQvjI8Sc-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="grGa16mLLxmnXQvjI8Sc-30" target="grGa16mLLxmnXQvjI8Sc-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="grGa16mLLxmnXQvjI8Sc-30" value="Trading data from Cloudburst" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="1740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="grGa16mLLxmnXQvjI8Sc-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="grGa16mLLxmnXQvjI8Sc-36" target="grGa16mLLxmnXQvjI8Sc-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="grGa16mLLxmnXQvjI8Sc-36" value="&lt;div&gt;Pump signals from various channels&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="1860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="grGa16mLLxmnXQvjI8Sc-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="grGa16mLLxmnXQvjI8Sc-39" target="grGa16mLLxmnXQvjI8Sc-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="grGa16mLLxmnXQvjI8Sc-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="grGa16mLLxmnXQvjI8Sc-39" target="grGa16mLLxmnXQvjI8Sc-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="grGa16mLLxmnXQvjI8Sc-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="grGa16mLLxmnXQvjI8Sc-39" target="grGa16mLLxmnXQvjI8Sc-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="grGa16mLLxmnXQvjI8Sc-39" value="Pumpfeatures: Total volues, duration, price increase, volume increase" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="41" y="1800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="grGa16mLLxmnXQvjI8Sc-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="grGa16mLLxmnXQvjI8Sc-44" target="grGa16mLLxmnXQvjI8Sc-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="grGa16mLLxmnXQvjI8Sc-44" value="Intuitive score" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="grGa16mLLxmnXQvjI8Sc-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="grGa16mLLxmnXQvjI8Sc-45" target="grGa16mLLxmnXQvjI8Sc-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="grGa16mLLxmnXQvjI8Sc-45" value="Mixed effect measurement" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="grGa16mLLxmnXQvjI8Sc-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="grGa16mLLxmnXQvjI8Sc-46" target="grGa16mLLxmnXQvjI8Sc-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="grGa16mLLxmnXQvjI8Sc-46" value="&lt;div&gt;Bayesian Hierarchy measurement&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="grGa16mLLxmnXQvjI8Sc-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="grGa16mLLxmnXQvjI8Sc-51" target="grGa16mLLxmnXQvjI8Sc-77">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="2300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="grGa16mLLxmnXQvjI8Sc-51" value="Most effective channels" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="grGa16mLLxmnXQvjI8Sc-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="grGa16mLLxmnXQvjI8Sc-65" target="grGa16mLLxmnXQvjI8Sc-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="grGa16mLLxmnXQvjI8Sc-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="grGa16mLLxmnXQvjI8Sc-65" target="grGa16mLLxmnXQvjI8Sc-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="grGa16mLLxmnXQvjI8Sc-65" value="Network Feature Engineering " style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="grGa16mLLxmnXQvjI8Sc-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="grGa16mLLxmnXQvjI8Sc-66" target="grGa16mLLxmnXQvjI8Sc-77">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="2260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="grGa16mLLxmnXQvjI8Sc-66" value="Cartels of channels" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="715" y="1900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="grGa16mLLxmnXQvjI8Sc-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="grGa16mLLxmnXQvjI8Sc-68" target="grGa16mLLxmnXQvjI8Sc-77">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="2260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="grGa16mLLxmnXQvjI8Sc-68" value="most connected channels" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="970" y="1910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="grGa16mLLxmnXQvjI8Sc-71" value="&lt;div&gt;Clustering&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="780" y="1730" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="grGa16mLLxmnXQvjI8Sc-73" value="&lt;h2 data-ved=&quot;2ahUKEwjy05CVn_X8AhXGYcAKHcrtB54Q3B0oAXoECFgQEA&quot; data-attrid=&quot;title&quot; data-local-attribute=&quot;d3bn&quot; class=&quot;qrShPb kno-ecr-pt PZPZlf q8U8x&quot;&gt;&lt;span style=&quot;font-weight: normal; font-size: 12px;&quot;&gt;Centrality&lt;/span&gt;&lt;/h2&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1780" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="grGa16mLLxmnXQvjI8Sc-77" value="Bad guys " style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="2380" width="760" height="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
