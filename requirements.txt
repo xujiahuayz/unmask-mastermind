@@ -14,3 +14,4 @@ pylint==2.16.1
 pytz==2022.7.1
 sshtunnel==0.4.0
 datetime
+coinmarketcapapi

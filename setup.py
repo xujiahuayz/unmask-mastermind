@@ -17,9 +17,9 @@ with pathlib.Path("dev-requirements.txt").open() as dev_requirements_txt:
     ]
 
 setup(
-    name="clotho",
+    name="environ",
     use_scm_version=True,
-    packages=find_packages(where="src"),
+    packages=find_packages(),
     package_dir={
         "": "src",
     },
