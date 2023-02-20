@@ -104,6 +104,7 @@ celerybeat.pid
 # Environments
 .env
 .venv
+.envcopy
 env/
 venv/
 ENV/
@@ -137,3 +138,4 @@ dmypy.json
 development/
 data/
 exhibit/
+assets/
