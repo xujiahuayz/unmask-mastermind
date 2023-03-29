@@ -1,6 +1,6 @@
 from os import path
 import pandas as pd
-from pdenv.setting import PROJECT_ROOT
+from environ.settings import PROJECT_ROOT
 
 
 # # read data into dataframe

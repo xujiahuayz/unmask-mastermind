@@ -82,27 +82,76 @@ kde_crowd = gaussian_kde(non_duplicate_log_data_crowd)
 kde_vals_crowd = kde_crowd(np.log10(x_eval))
 
 
-plt.fill_between(x_eval, kde_vals, alpha=0.5)
-plt.plot(x_eval, kde_vals, label="Market Cap Available Coin")
 
 
-plt.fill_between(x_eval, kde_vals_time, alpha=0.5)
-plt.plot(x_eval, kde_vals_time, label="Time Pump Target Coin")
 
+# Create the plot
+fig, ax = plt.subplots()
+ax.fill_between(x_eval, kde_vals, alpha=0.5)
+ax.plot(x_eval, kde_vals, label="Market Cap Available Coin")
 
-plt.fill_between(x_eval, kde_vals_crowd, alpha=0.5)
-plt.plot(x_eval, kde_vals_crowd, label="Crowd Pump Target Coin")
+ax.fill_between(x_eval, kde_vals_time, alpha=0.5)
+ax.plot(x_eval, kde_vals_time, label="Time Pump Target Coin")
 
-plt.legend()
+ax.fill_between(x_eval, kde_vals_crowd, alpha=0.5)
+ax.plot(x_eval, kde_vals_crowd, label="Crowd Pump Target Coin")
 
+ax.legend()
+
+# Set x-axis to logarithmic scale
+ax.set_xscale("log")
+
+# Define the tick formatter function
+def format_ticks(value, pos):
+    if value >= 1e12:
+        return '{:.0f}T'.format(value/1e12)
+    elif value >= 1e9:
+        return '{:.0f}B'.format(value/1e9)
+    elif value >= 1e6:
+        return '{:.0f}M'.format(value/1e6)
+    elif value >= 1e3:
+        return '{:.0f}K'.format(value/1e3)
+    else:
+        return int(value)
 
 # Set the tick formatter
-plt.xaxis.set_major_formatter(ticker.FuncFormatter(format_ticks))
+ax.xaxis.set_major_formatter(ticker.FuncFormatter(format_ticks))
 
-
-plt.xscale("log")
-plt.xlabel("Unlogged Scale")
-plt.ylabel("Density")
+# Set axis labels and save the plot
+ax.set_xlabel("Market Capitalization (USD)")
+ax.set_ylabel("Density")
 plt.savefig(path.join(PROJECT_ROOT, "exhibit", "market_cap.pdf"))
 
+# Show the plot
 plt.show()
+
+
+
+
+
+
+
+# plt.fill_between(x_eval, kde_vals, alpha=0.5)
+# plt.plot(x_eval, kde_vals, label="Market Cap Available Coin")
+
+
+# plt.fill_between(x_eval, kde_vals_time, alpha=0.5)
+# plt.plot(x_eval, kde_vals_time, label="Time Pump Target Coin")
+
+
+# plt.fill_between(x_eval, kde_vals_crowd, alpha=0.5)
+# plt.plot(x_eval, kde_vals_crowd, label="Crowd Pump Target Coin")
+
+# plt.legend()
+
+
+# # Set the tick formatter
+# plt.xticks(ticker.FuncFormatter(format_ticks))
+
+
+# plt.xscale("log")
+# plt.xlabel("Unlogged Scale")
+# plt.ylabel("Density")
+# plt.savefig(path.join(PROJECT_ROOT, "exhibit", "market_cap.pdf"))
+
+# plt.show()

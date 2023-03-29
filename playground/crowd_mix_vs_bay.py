@@ -5,8 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib
 
-mixed_score_crowd = pd.read_
-csv(path.join(PROJECT_ROOT, "data", "regression_score_crowd.csv"))
+mixed_score_crowd = pd.read_csv(path.join(PROJECT_ROOT, "data", "regression_score_crowd.csv"))
 
 bay_score_crowd = pd.read_csv(
     path.join(PROJECT_ROOT, "data", "bayesian_regression_score_crowd.csv")
