@@ -74,3 +74,8 @@ def get_signals(type: str):
     else:
         logger.info("Specify signal type: time or crowd")
         return pd.DataFrame()
+    
+
+if __name__ == "__main__":
+    time_signal = get_signals("time")
+    crowd_signal = get_signals("crowd")

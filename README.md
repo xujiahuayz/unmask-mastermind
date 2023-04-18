@@ -52,45 +52,18 @@ pip install -e ".[dev]"
 ---
 
 ## Run scripts
+To get the signals, you need to prepare the .env file. The .env file is not included in the repo for security reasons. Please contact the repo owner for the .env file.
 
-To run the profiling:
-Include SSH_PKEY, DB_USERNAME, and DB_PASS variable assignment in the .env file,
-which correspond to SSH private key, database username, and database password.
+### Get signals from Cloudburst
+Run the environ/extraction/signals_downloader.py in the interactive window
+
 
 ```bash
 export $(cat .env | xargs)
 ```
 
-### Run the channels profiling pipeline:
-   
-```bash
-run/run_channels_profiling.py
-```
-   
-### Run the users profiling pipeline:
 
-```bash
-run/run_users_profiling.py
-```
-
-## Testing and Coverage
-
-We use pytest as our testing framework and coverage to measure code coverage.
-
-To run the tests:
-
-```bash
-pytest
-```
-
-To generate a coverage report:
-
-```bash
-coverage run -m pytest
-coverage report
-```
-
-You can also use coverage html command to generate HTML files that you can view in a web browser.
+###
 
 ## Git Large File Storage (Git LFS)
 
