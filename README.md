@@ -9,7 +9,7 @@ git clone https://github.com/Cloudburst-E/unmask-mastermind.git
 Navigate to the directory of the cloned repo
 
 ```bash
-cd clothounmask-mastermind
+cd unmask-mastermind
 ```
 
 ### Set up the repo

@@ -11,3 +11,6 @@ opensea_twitter_handler_wallet = pd.read_csv(
 twitter_hexagon_cleaned_wallet = pd.read_csv(
     path.join(PROJECT_ROOT, "data_twitter/twitter_hexagon_cleaned_wallet.csv")
 )
+
+# length of the opensea_twitter_handler_wallet and twitter_hexagon_cleaned_wallet
+print(len(opensea_twitter_handler_wallet)+ len(twitter_hexagon_cleaned_wallet))
